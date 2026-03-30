@@ -25,6 +25,29 @@ footer {
     margin: 0 auto;
 }
 
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+
+header img {
+    grid-column-start: 1;
+    grid-column-end: ;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    border-top: 1px solid rgba(4, 0, 0, 0.1);
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
