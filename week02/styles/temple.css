@@ -8,23 +8,23 @@ body {
     line-height: 1.6;
 }
 
+main {
+    width: 400px;
+    margin: auto;
+}
+
 header,
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: rgb(62, 52, 52);
     padding: 10px;
+    color: white;
     text-align: center;
     font-size: 1.5rem;
 }
 
-main {
-    width: 400px;
-    margin: 0 auto;
-}
-
 h1 {
-    margin: 10px;
     text-align: center;
+    margin: 10px;
 }
 
 h2 {
@@ -38,10 +38,10 @@ img {
 }
 
 section {
-    margin: 20px 0;
-    border: 1px solid rgb(0 0 0 /10%);
-    padding: 10px;
     background-color: #ddd;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px 0;
     font-size: .9rem;
 }
 
