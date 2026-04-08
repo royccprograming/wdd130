@@ -2,7 +2,8 @@
     --primary-color: #055a05;
     --secondary-color: #fdfcfb;
     --accent1-color: #264653;
-    --accent2-color: rgb(5, 5, 95);
+    --accent2-color: #8cbdeb;
+    ;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -36,7 +37,7 @@ header {
     align-items: center;
     border: 1px solid black;
     margin-bottom: 10px;
-    background-color: #8cbdeb;
+    background-color: var(--accent2-color);
     ;
 }
 
@@ -71,13 +72,13 @@ article {
     padding: 10px;
     margin-top: -65px;
     margin-right: -10px;
+    text-decoration: none;
 
 }
 
 .socialmedia a img {
     width: 60px;
     height: auto;
-
 }
 
 .hero {
@@ -149,7 +150,7 @@ section {
 
 footer {
     border: 1px solid rgba(0, 0, 0, 0.947);
-    background-color: #8cbdeb;
+    background-color: var(--accent2-color);
 }
 
 footer p {
