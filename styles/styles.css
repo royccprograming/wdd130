@@ -27,11 +27,13 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    font-size: 1, 2rem;
 }
 
 h1 {
     color: darkblue;
-    border-bottom: 1;
+    border-bottom: 1px solid darkblue;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -50,11 +52,12 @@ img {
 
 p {
     padding: 0;
+    text-align: justify;
 }
 
 main {
-    grid-column: 2;
     margin: 1rem;
+    grid-column: 2/3;
 }
 
 aside {
@@ -66,9 +69,8 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
-    grid-column: 1;
-    grid-row-start: 1;
-
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -80,9 +82,11 @@ main img {
     width: 150px;
     height: auto;
     border: var(--border);
-    padding: 10px;
+    padding: 5px;
     box-shadow: 0 0 30px #333;
     float: right;
+    margin: 1rem;
+
 }
 
 footer {
@@ -110,4 +114,8 @@ footer {
 
 .box li {
     margin-left: 10px;
+}
+
+.grid {
+    display: grid;
 }

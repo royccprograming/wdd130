@@ -32,20 +32,24 @@ header img {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 100px;
-}
-
-header img {
-    grid-column-start: 1;
-    grid-column-end: ;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: #8cbdeb;
+    ;
 }
 
 header nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    border-top: 1px solid rgba(4, 0, 0, 0.1);
+    display: flex;
+}
+
+.xd a {
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+    text-align: center;
 }
 
 h1,
@@ -63,7 +67,17 @@ article {
 }
 
 .socialmedia a {
-    text-decoration: none;
+    float: right;
+    padding: 10px;
+    margin-top: -65px;
+    margin-right: -10px;
+
+}
+
+.socialmedia a img {
+    width: 60px;
+    height: auto;
+
 }
 
 .hero {
@@ -89,7 +103,7 @@ h1 {
 
 .hero article {
     position: absolute;
-    bottom: 290px;
+    bottom: 680px;
     background-color: var(--accent1-color);
     padding: 8px;
     color: var(--secondary-color);
@@ -111,12 +125,43 @@ h1 {
 }
 
 h2 {
-    background-color: var(--accent2-color);
-    color: var(--secondary-color);
+    color: darkblue;
     text-align: center;
     padding: 12px;
 }
 
+section {
+    padding: 5px;
+    border: 1px solid rgb(12, 12, 12);
+    margin: 10px;
+}
+
+.pq div {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 10px;
+}
+
+.pq img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    border: 1px solid rgba(0, 0, 0, 0.947);
+    background-color: #8cbdeb;
+}
+
 footer p {
-    border-top: 1px solid rgba(4, 0, 0, 0.1);
+    text-align: center;
+}
+
+figure img {
+    max-width: 150px;
+}
+
+.jiji {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

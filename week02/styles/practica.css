@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*aca es lo hemos hecho previamente*/
 h1 {
     color: darkblue;
 }
@@ -23,4 +30,35 @@ img {
 
 p {
     padding: 10px;
+}
+
+main img {
+    float: right;
+    margin-bottom: 190px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    left: 130px;
+    top: 14px;
+}
+
+header footer {
+    max-width: 840px;
+}
+
+/*aca pondremos los selctores de clase */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(166, 171, 166);
+    color: rgb(7, 7, 7);
 }
