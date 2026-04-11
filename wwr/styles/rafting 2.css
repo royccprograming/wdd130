@@ -1,0 +1,203 @@
+:root {
+    --primary-color: darkblue;
+    --secondary-color: #fdfcfb;
+    --accent1-color: #264653;
+    --accent2-color: #8cbdeb;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    background-color: var(--accent2-color);
+}
+
+header nav {
+    display: flex;
+}
+
+.xd a {
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+    text-align: center;
+}
+
+nav,
+p,
+section {
+    margin: 16px;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -2px;
+}
+
+main p {
+    text-align: center;
+    margin: 0px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-gap: 50px;
+    margin-top: 10px;
+}
+
+iframe {
+    width: 100%;
+    max-height: 340px;
+}
+
+.label1 label {
+    padding-right: 35px;
+    font-size: 1.2rem;
+}
+
+.label1 input {
+    padding-top: 10px;
+    padding-right: 90px;
+    border-radius: 0.3rem;
+    margin-bottom: 5px;
+}
+
+.label2 label {
+    padding-right: 38px;
+    font-size: 1.2rem;
+}
+
+.label2 input {
+    padding-top: 10px;
+    padding-right: 90px;
+    border-radius: 0.3rem;
+}
+
+.label3 label {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+    font-size: 1, 2rem;
+    margin-top: 40px;
+}
+
+.opt1 {
+    margin-top: -60px;
+    margin-left: 96px;
+    margin-bottom: 15px;
+}
+
+.opt2 {
+    margin-left: 96px;
+    margin-bottom: 17px;
+}
+
+.opt3 {
+    margin-left: 96px;
+    margin-bottom: 5px;
+}
+
+.label7 label {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.label7 input {
+    padding-right: 188px;
+    padding-bottom: 40px;
+    border-radius: 0.3rem;
+    margin-bottom: 7px;
+}
+
+.label8 label {
+    width: 270px;
+    font-size: 1.rem;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+button {
+    width: 354px;
+    border-radius: 0.3rem;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+h2 {
+    color: var(--primary-color);
+    text-align: center;
+    padding: 5px;
+    font-family: var(--heading-font);
+}
+
+section {
+    padding: 5px;
+    border: 1px solid rgb(12, 12, 12);
+    margin-left: -1px;
+    width: 100%;
+}
+
+figure img {
+    max-width: 150px;
+}
+
+.expedition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.socialmedia a {
+    float: right;
+    padding: 10px;
+    margin-top: -65px;
+    margin-right: -10px;
+    text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 60px;
+    height: auto;
+}
+
+footer {
+    border: 1px solid rgba(0, 0, 0, 0.947);
+    background-color: var(--accent2-color);
+}
+
+footer p {
+    text-align: center;
+}
