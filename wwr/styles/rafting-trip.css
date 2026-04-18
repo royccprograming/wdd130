@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30% 75%;
+    background-color: rgb(49, 48, 48);
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    justify-self: center;
+    width: 150px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #faf6f6;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.tours {
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tours-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+    grid-row-gap: 20px;
+    justify-content: space-between;
+}
+
+.tour-card1 img {
+    width: 100%;
+    height: 675px;
+    object-fit: cover;
+    margin-top: -30px;
+}
+
+.tour-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.tour-card,
+.tour-card1 {
+    display: grid;
+    grid-template-rows: auto, 1fr, auto;
+}
+
+.tour-card1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+}
+
+.tour-card h3,
+.tour-card1 h3 {
+    color: #edf1f6;
+    font-size: 1.1rem;
+    min-height: 50px;
+}
+
+.tour-card p,
+.tour-card1 p {
+    font-size: 0.9rem;
+    color: #fefefe;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.view-btn {
+    background-color: #f7d463;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-self: center;
+    width: fit-content;
+}
+
+h2 {
+    color: rgb(243, 243, 247);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.casa {
+    width: 100%;
+    height: auto;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.casita p {
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(55, 55, 169);
+    color: white;
+    padding: 25px;
+    justify-content: center;
+}
+
+.boton-contacto {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.boton-contacto:hover {
+    background-color: #0056b3;
+    /* Color más oscuro al pasar el ratón */
+}
